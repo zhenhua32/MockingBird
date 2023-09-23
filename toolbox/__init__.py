@@ -77,6 +77,7 @@ class Toolbox:
         self.ui.start()
 
     def excepthook(self, exc_type, exc_value, exc_tb):
+        print("Exception: %s" % exc_value)
         traceback.print_exception(exc_type, exc_value, exc_tb)
         self.ui.log("Exception: %s" % exc_value)
         
