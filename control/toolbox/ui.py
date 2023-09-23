@@ -280,7 +280,7 @@ class UI(QDialog):
                 msg += ".\nThe recognized datasets are:\n\t%s\nFeel free to add your own. You " \
                        "can still use the toolbox by recording samples yourself." % \
                        ("\n\t".join(recognized_datasets))
-                print(msg, file=sys.stderr)
+                print(msg)
                 
                 self.random_utterance_button.setDisabled(True)
                 self.random_speaker_button.setDisabled(True)

@@ -45,5 +45,6 @@ if __name__ == '__main__':
     check_model_paths(encoder_path=args.enc_models_dir, synthesizer_path=args.syn_models_dir,
                       vocoder_path=args.voc_models_dir)
 
+    print("start ...")
     # Launch the toolbox
     Toolbox(**vars(args))    

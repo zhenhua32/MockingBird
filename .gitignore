@@ -24,3 +24,4 @@ log
 /datasets
 monotonic_align/build
 monotonic_align/monotonic_align
+venv/
